@@ -21,13 +21,13 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
-              h1.home-title.mb-4 Desarrollo y Ciclo Vital: Niños y Adolescentes
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              h1.home-title.mb-4 {{ globalData.tituloUnidad }}
+              p.descripcion.mb-4 La inteligencia de negocios (BI) ha evolucionado desde el análisis manual de datos hasta sistemas avanzados que integran inteligencia artificial y big data. Inicialmente, las empresas se basaban en informes escritos y contabilidad básica para analizar datos históricos. La llegada de computadoras en los años 50 permitió la automatización de procesos, mientras que en los 70 surgieron sistemas de soporte a decisiones. En los 80, el término BI cobró relevancia con herramientas como data warehouses y OLAP. Desde 2010, el BI incluye análisis predictivo y visualizaciones interactivas, adaptándose a entornos dinámicos y necesidades empresariales cambiantes.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold El éxito no llega por casualidad, sino por la constancia, la pasión y la valentía de enfrentar cada desafío como una oportunidad para crecer.
 
               .button-container.mt-auto
-                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'tema1' }")
+                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
                     span.iniciar-btn-text INICIAR
                     .icon
@@ -146,11 +146,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #3C97DA!important
+    color: #fff !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #205277!important
   &:hover
     .icon
       transform: scale(1.06)

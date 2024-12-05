@@ -17,3 +17,71 @@
 
   100%
     transform: translateY(0px)
+
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.cursor-pointer
+  cursor: pointer
+
+.container.tarjeta
+  overflow-y: hidden
+
+.card_hover
+  .custom-image-card
+    border-radius: 8px !important
+    transition: all 0.2s ease-in-out
+  .custom-image-card:hover
+    background-color: #6A2C83
+    p
+      color: $white !important
+
+// BG IMG
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/bg-1.svg") !important
+    background-position: top
+    
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+// BG colores
+
+.bg-amarillo
+  background-color: #FEEBDB
+
+.bg-azul
+  background-color: #D7E9F7
+.bg-azul-1
+  background-color: #3C97DA
+
+.bg-rosa
+  background-color: #FBE1FD
+
+.bg-gris
+  background-color: #F4F4F4
+
+.fs-16px
+  font-size: 16px
+
+.border-top-naranja-11px
+  border-top: 11px solid #FE9D52

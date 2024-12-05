@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Explorando la inteligencia de negocios',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +31,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Concepto y evolución de la inteligencia de negocios ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Fundamentos de la Inteligencia de Negocios (IN)',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Ámbito de aplicación de la Inteligencia de Negocios',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Empresas desarrolladoras de inteligencia de negocios',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -82,32 +64,9 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo:
+              'Función de la bodega de datos y el web scraping en inteligencia de negocios',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,20 +74,29 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Ciclo de vida de un sistema de inteligencia de negocios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo:
+              'Fase de planificación y definición de requisitos en un sistema de IN',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo:
+              'Desarrollo e implementación del sistema de inteligencia de negocios (IN)',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo:
+              'Mantenimiento y evolución del sistema de inteligencia de negocios (IN)',
+            hash: 't_3_3',
           },
         ],
       },
@@ -170,109 +138,118 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'IBM. (s.f.). Infraestructura de TI, Libere y aproveche el poder de su infraestructura de TI.',
+      link: 'https://www.ibm.com/co-es/it-infrastructure',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+      referencia: 'IBM. (s.f.). Business Intelligence.',
+      link: 'https://www.ibm.com/mx-es/topics/business-intelligence',
     },
     {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'TIC Portal. (s.f.). Inteligencia de negocio (BI).',
+      link: 'https://www.ticportal.es/glosario-tic/inteligencia-negocio-bi',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'BI (Business Intelligence)',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Big Data',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Cuadro de mando (Dashboard)',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Data Lake',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
     },
     {
-      termino: 'Moda',
+      termino: 'Data Mart',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
     },
     {
-      termino: 'Diseña',
+      termino: 'Data Mining (Minería de Datos)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
     },
     {
-      termino: 'DIseño',
+      termino: 'Data Warehouse (Almacén de Datos)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
     },
     {
-      termino: 'Tipología',
+      termino: 'Dimensión',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'ETL (Extract, Transform, Load)',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Indicador clave de desempeño (KPI)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Informes (Reports)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'IoT (Internet of Things)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
+    },
+    {
+      termino: 'Machine learning (Aprendizaje Automático)',
+      significado:
+        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
+    },
+    {
+      termino: 'Metadatos',
+      significado:
+        'Datos que describen otros datos, como su origen, formato y características',
+    },
+    {
+      termino: 'OLAP (Online Analytical Processing)',
+      significado:
+        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
+    },
+    {
+      termino: 'Panel de control (Control Panel)',
+      significado:
+        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
+    },
+    {
+      termino: 'Predicción (Forecasting)',
+      significado:
+        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
+    },
+    {
+      termino: 'SQL (Structured Query Language)',
+      significado:
+        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
+    },
+    {
+      termino: 'Toma de decisiones basada en datos',
+      significado:
+        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
+    },
+    {
+      termino: 'Visualización de datos',
+      significado:
+        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
     },
   ],
   complementario: [

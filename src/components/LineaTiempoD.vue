@@ -14,6 +14,9 @@
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
         span(v-html="item.numero")
+      .linea-tiempo-d__item__dots(
+        v-if="index < elements.length -1"
+      )
 
     .col(:class="{'mb-4' : index < elements.length -1}")
       .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
@@ -49,17 +52,45 @@ export default {
 </script>
 
 <style lang="sass">
+.large
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: #D7E9F7
+  .linea-tiempo-d__item__content__title.active
+    background-color: #B0D5F0
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: #EAF4FB
+  .linea-tiempo-d__item__number
+    height: 60px
+    width: 60px
+    background-color: #D7E9F7
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #B0D5F0 !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block
+
+// DEFAULT
 .linea-tiempo-d__item__content__title
-  padding: 28px
+  padding: 12px 26px
   border-radius: 5px 5px 0px 0px
-  background-color: #FEF8E7
+  background-color: #FAD3FC
 .linea-tiempo-d__item__content__title.active
-  background-color: #F9C623
+  background-color: #FDEFFE
 .linea-tiempo-d__item__content__slot
   border-radius: 0px 0px 5px 5px
-  background-color: #FDEDBB
+  background-color: #FDEFFE
 .linea-tiempo-d__item__number
-  background-color: #FEF8E7
+  background-color: #FAD3FC
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #F9C623 !important
+  background-color: #FDEFFE !important
+.linea-tiempo-d__item__dots:after
+  border-left: 0px
+.linea-tiempo-d__item__dots:after
+  border-left: 5px dotted #D2E1F1
+.fa-angle-up, .fa-angle-down
+  display: none
 </style>

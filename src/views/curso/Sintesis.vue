@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 En esta unidad se explorarán los conceptos clave de la inteligencia de negocios, incluyendo plataformas, herramientas y el ciclo de vida de sus sistemas. Temas como big data, Power BI  y empresas desarrolladoras permitirán al estudiante comprender el ecosistema de la inteligencia de negocios en el contexto empresarial actual. Se invita a realizar un estudio consciente y responsable, utilizando herramientas digitales y recursos de apoyo para profundizar en los contenidos.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
