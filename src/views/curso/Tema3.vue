@@ -21,7 +21,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Análisis de datos en inteligencia de negocios (IN): principales herramientas y beneficiosFase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)
           p.mb-5 En el documento Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)  se describe el primer y más crítico paso en el ciclo de vida de estos sistemas. Se detalla cómo esta etapa establece el propósito, alcance y objetivos del sistema, garantizando su alineación con las metas estratégicas de la organización. Lo invitamos a consultar el documento para ampliar esta información y conocer cómo una planificación adecuada optimiza la toma de decisiones y minimiza riesgos.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN) .pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)  
              
@@ -224,7 +224,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)
           p.mb-5 En el documento Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)  se abordan aspectos esenciales que permiten comprender y aprovechar al máximo estas herramientas tecnológicas. Se destacan casos prácticos de aplicación, los beneficios que aportan a las organizaciones, los costos asociados a su implementación y la importancia de la capacitación para garantizar su efectividad. Lo invitamos a consultar el documento para ampliar esta información y descubrir cómo la Inteligencia de Negocios puede transformar la gestión empresarial.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN).pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)  
              

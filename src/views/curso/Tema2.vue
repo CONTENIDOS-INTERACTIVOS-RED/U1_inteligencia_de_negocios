@@ -58,7 +58,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Análisis de datos en inteligencia de negocios (IN): principales herramientas y beneficios
           p.mb-5 En el documento <strong>Análisis de Datos en IN y Principales Herramientas</strong>, se exploran conceptos fundamentales, metodologías clave y herramientas destacadas como Power BI, Tableau y Qlik Sense, esenciales para transformar datos en decisiones estratégicas. Descubra cómo el análisis descriptivo, predictivo y prescriptivo, aplicado en casos como los de Walmart y Amazon, potencia la eficiencia operativa y la planificación estratégica. Se invita a leer el documento para conocer cómo estas herramientas pueden brindar ventajas competitivas en el entorno empresarial actual.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Análisis de datos en IN y principales herramientas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Análisis de Datos en IN y Principales Herramientas
              
