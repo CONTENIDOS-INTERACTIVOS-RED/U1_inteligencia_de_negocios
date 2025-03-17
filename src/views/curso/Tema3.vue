@@ -19,7 +19,7 @@
     .row.bg-amarillo.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Análisis de datos en inteligencia de negocios (IN): principales herramientas y beneficiosFase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)
+          h2.mb-4.pb-2.me-auto Análisis de datos en inteligencia de negocios (IN): principales herramientas y beneficios Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)
           p.mb-5 En el documento Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)  se describe el primer y más crítico paso en el ciclo de vida de estos sistemas. Se detalla cómo esta etapa establece el propósito, alcance y objetivos del sistema, garantizando su alineación con las metas estratégicas de la organización. Lo invitamos a consultar el documento para ampliar esta información y conocer cómo una planificación adecuada optimiza la toma de decisiones y minimiza riesgos.
           a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN) .pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
@@ -54,25 +54,18 @@
                 img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold ETL (Extracción, Transformación y Carga)
-              p Proceso fundamental para la recolección de datos de diversas fuentes, su limpieza y transformación en un formato adecuado, y su posterior carga en la infraestructura central. Herramientas como Talend y Apache Nifi son ampliamente utilizadas.
-            .d-none.d-lg-block.col-md-6.col-lg-4
-              figure
-                img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Plataformas de análisis y visualización
               p Herramientas como Power BI, Tableau y Qlik se configuran para crear dashboards interactivos, gráficos y reportes comprensibles para los usuarios finales, facilitando la interpretación de los datos.
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Integración con sistemas existentes
               p El sistema de IN se conecta con sistemas previos como CRM, ERP y bases de datos operativas, creando un flujo continuo de datos que permite análisis en tiempo real y consistencia en la información utilizada.
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Calidad de los datos 
@@ -122,8 +115,9 @@
     .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width
       div.px-4.px-md-5.py-md-3
 
-        h2 
-        p.mb-5
+        h2 Costos asociados
+        p.mb-5 Implementar un sistema de inteligencia de negocios conlleva diversos costos que deben considerarse para asegurar una implementación adecuada:
+
         .row.mb-5.justify-content-center 
           .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-right")
@@ -200,7 +194,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
               p.text-bold Ajuste de algoritmos
-              p Los algoritmos de análisis y predicción se ajustan a medida que cambian los datos y los patrones de negocio, garantizando la precisión y relevancia de los insights.
+              p Los algoritmos de análisis y predicción se ajustan a medida que cambian los datos y los patrones de negocio, garantizando la precisión y relevancia de los <i>insights</i>.
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')

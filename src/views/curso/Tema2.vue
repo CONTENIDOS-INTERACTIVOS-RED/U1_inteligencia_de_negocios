@@ -15,7 +15,7 @@
           p(numero="1" titulo="Bases de datos")(data-aos="fade-up") Son sistemas de almacenamiento donde se guardan datos transaccionales generados diariamente. Estas bases de datos pueden ser relacionales (MySQL, PostgreSQL) o no relacionales (MongoDB), proporcionando flexibilidad para almacenar y recuperar datos según las necesidades del negocio.
           p(numero="2" titulo="Almacenes de datos (Data Warehouses)")(data-aos="fade-up") Sistemas especializados para integrar datos de múltiples fuentes y centralizarlos para análisis. Están optimizados para consultas y análisis históricos, permitiendo la identificación de tendencias. Ejemplos: Amazon Redshift, Google BigQuery, Microsoft Azure SQL Data Warehouse.
           p(numero="3" titulo="Procesos ETL (Extracción, Transformación y Carga)")(data-aos="fade-up") Proceso que extrae datos de diversas fuentes, los transforma para garantizar consistencia y exactitud, y los carga en el almacén de datos. Ejemplos de herramientas: Apache Nifi, Talend, Microsoft SQL Server Integration Services (SSIS).
-          p(numero="4" titulo="Herramientas de análisis y visualización")(data-aos="fade-up") Permiten la interpretación de datos a través de gráficos, dashboards y reportes interactivos. Estas herramientas, como Power BI, Tableau y Qlik Sense , también integran análisis predictivo y minería de datos para realizar proyecciones y anticipar cambios.
+          p(numero="4" titulo="Herramientas de análisis y visualización")(data-aos="fade-up") Permiten la interpretación de datos a través de gráficos, dashboards y reportes interactivos. Estas herramientas, como Power BI, Tableau y Qlik Sense, también integran análisis predictivo y minería de datos para realizar proyecciones y anticipar cambios.
       .col-4.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
 
@@ -80,7 +80,7 @@
           .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
             h4 Bodega de datos
             p(data-aos="fade-up") Sistema centralizado diseñado para almacenar datos históricos y actuales provenientes de múltiples sistemas organizacionales. Centraliza los datos mediante procesos de ETL (Extracción, Transformación y Carga), garantizando su limpieza, transformación y estandarización. 
-            span <strong>Beneficios</strong> Sirve como única fuente de verdad, mejora la precisión en informes y proyecciones, optimiza la eficiencia y reduce el tiempo necesario para obtener insights. Ejemplo: análisis de tendencias de ventas a largo plazo.
+            span <strong>Beneficios:</strong> Sirve como única fuente de verdad, mejora la precisión en informes y proyecciones, optimiza la eficiencia y reduce el tiempo necesario para obtener insights. Ejemplo: análisis de tendencias de ventas a largo plazo.
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Web scraping", :iconUrl="require('@/assets/curso/unidad/img-30.svg')")
         .row
           .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")

@@ -154,102 +154,102 @@ export default {
     {
       termino: 'BI (Business Intelligence)',
       significado:
-        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
+        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones.',
     },
     {
       termino: 'Big Data',
       significado:
-        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
+        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis.',
     },
     {
       termino: 'Cuadro de mando (Dashboard)',
       significado:
-        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
+        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real.',
     },
     {
       termino: 'Data Lake',
       significado:
-        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
+        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada.',
     },
     {
       termino: 'Data Mart',
       significado:
-        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
+        'Subconjunto de un data warehouse que se centra en un área específica de una organización.',
     },
     {
       termino: 'Data Mining (Minería de Datos)',
       significado:
-        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
+        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones.',
     },
     {
       termino: 'Data Warehouse (Almacén de Datos)',
       significado:
-        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
+        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes.',
     },
     {
       termino: 'Dimensión',
       significado:
-        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
+        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto.',
     },
     {
       termino: 'ETL (Extract, Transform, Load)',
       significado:
-        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
+        'Proceso de extraer, transformar y cargar datos en un almacén de datos.',
     },
     {
       termino: 'Indicador clave de desempeño (KPI)',
       significado:
-        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
+        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización.',
     },
     {
       termino: 'Informes (Reports)',
       significado:
-        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
+        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones.',
     },
     {
       termino: 'IoT (Internet of Things)',
       significado:
-        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
+        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real.',
     },
     {
       termino: 'Machine learning (Aprendizaje Automático)',
       significado:
-        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
+        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita.',
     },
     {
       termino: 'Metadatos',
       significado:
-        'Datos que describen otros datos, como su origen, formato y características',
+        'Datos que describen otros datos, como su origen, formato y características.',
     },
     {
       termino: 'OLAP (Online Analytical Processing)',
       significado:
-        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
+        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos.',
     },
     {
       termino: 'Panel de control (Control Panel)',
       significado:
-        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
+        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI.',
     },
     {
       termino: 'Predicción (Forecasting)',
       significado:
-        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
+        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias.',
     },
     {
       termino: 'SQL (Structured Query Language)',
       significado:
-        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
+        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales.',
     },
     {
       termino: 'Toma de decisiones basada en datos',
       significado:
-        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
+        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones.',
     },
     {
       termino: 'Visualización de datos',
       significado:
-        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
+        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación.',
     },
   ],
   complementario: [
