@@ -230,6 +230,21 @@
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
 
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small(target="_blank", href="https://youtu.be/Z6wNVMtEczw?si=x5MpaC_ejfr2r8lX") Castro M. (2022, 24 de junio) DN 0113 2022 G3 Etapas del análisis de datos y práctica 9 23 06 2022. Alfonso Castro Mattei. [Video] YouTube.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small(target="_blank", href="https://blog.beservices.es/blog/las-fases-de-un-proyecto-de-business-intelligence") Beservices (Octubre 2022) Las fases de un proyecto de Business Intelligence [Blog]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
 
 </template>
 
